@@ -1,0 +1,85 @@
+.product-info {
+  height: 300px;
+  width: 1100px;
+  margin: 20px auto;
+  padding: 30px;
+  background-color: gray;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: white;
+  /* border: 2px solid red; */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  border-radius: 20px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.product-info > #removebtn {
+  flex-basis: 25%;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  flex-direction: column;
+  width: 150px;
+}
+
+.product-info > #removebtn > button {
+  height: 40px;
+  width: 150px;
+  background-color: orangered;
+  border-radius: 5px;
+  font-size: 16px;
+  color: white;
+  border: none;
+  margin-bottom: 10px;
+}
+
+.product-info > #removebtn > #countBtn {
+  display: flex;
+  justify-content: space-evenly;
+  width: 150px;
+}
+
+.product-info > #removebtn > #countBtn > button {
+  height: 40px;
+  width: 50px;
+  background-color: greenyellow;
+  border: none;
+  border-radius: 5px;
+}
+
+#startShopping {
+  height: 40px;
+  width: 150px;
+  background-color: yellowgreen;
+  border-radius: 5px;
+  font-size: 16px;
+  color: white;
+  border: none;
+}
+
+.product-info > #removebtn > button:hover {
+  cursor: pointer;
+}
+
+.product-info > #prodDesc {
+  width: 500px;
+  /* display: flex;
+    flex-direction: column; */
+  /* line-height: 30px; */
+  /* font-size: 14px; */
+  flex-basis: 40%;
+}
+
+#cartContainer > #totalPrice {
+  height: 50px;
+  width: 400px;
+  background-color: greenyellow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  margin-left: 900px;
+}

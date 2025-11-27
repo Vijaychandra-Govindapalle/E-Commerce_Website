@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    height: 70px;
+    width: 100%;
+    align-items: center;
+    /* justify-content: space-evenly; */
+    font-size: 20px;
+    background-color: black;
+    color: white;
+}
+
+nav>#logo>a::first-letter{
+    font-size: 40px;
+    color: orange;
+}
+
+nav>div:nth-child(1){
+    flex-basis: 10%;
+}
+
+nav>div:nth-child(2){
+    flex-basis: 20%;
+}
+nav>div:nth-child(3){
+    flex-basis: 20%;
+}
+nav>div:nth-child(4){
+    flex-basis: 40%;
+    
+}
+
+nav>div:nth-child(4)>input{
+    width: 400px;
+    height: 30px;
+    /* border: 0px; */
+    border: 2px solid transparent;
+    padding: 5px;
+    border-radius: 0px 5px 5px 0px;
+    /* font-size: 20px; */
+    padding-left: 40px;
+
+}
+
+nav>div:nth-child(4)>i{
+    height: 25px;
+    background-color: white;
+    color: black;
+    padding: 5px;
+    position: relative;
+    left: 30px;
+}
+
+nav>div:nth-child(4)>input::placeholder{
+    /* font-size: 20px; */
+}
+
+nav>div:nth-child(4)>input:focus{
+    border-color: orange;
+}
+
+nav>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav>div>a{
+    text-decoration: none;
+    color:white;
+}
+
+#contentBox{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+#contentBox>div{
+    /* padding: 30px; */
+    background-color: white;
+    /* border: 2px solid red; */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    border-radius: 15px;
+    margin: 10px;
+    width: 280px;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#contentBox>div>img{
+    height: 200px;
+    width: 150px;
+}
+
+#contentBox>div>#rating{
+    height: 30px;
+    width: 200px;
+    background-color: whitesmoke;
+    font-size: 14px;
+    padding: 5px;
+    padding-left: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+#contentBox>div>#price{
+ display: flex;
+ justify-content: space-between;   
+ width: 200px;
+}
+
+#contentBox>div>#price>button{
+    height: 25px;
+    padding: 3px;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+#contentBox>div>#price>button:hover
+{
+    cursor: pointer;
+}
+
+
+
+
+
